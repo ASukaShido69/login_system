@@ -1,0 +1,63 @@
+body {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'TH Sarabun New', sans-serif;
+}
+.container-fluid {
+    max-width: 1400px;
+}
+.tradingview-widget-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.nav-tabs .nav-link {
+    font-size: 1.2rem;
+}
+.accordion-button {
+    font-size: 1.1rem;
+}
+.accordion-body {
+    font-size: 1rem;
+}
+.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+.dark-mode .navbar {
+    background-color: #1f1f1f !important;
+}
+.dark-mode .card {
+    background-color: #1f1f1f;
+    border-color: #333;
+}
+.dark-mode .accordion-button {
+    background-color: #1f1f1f;
+    color: #fff;
+}
+.dark-mode .accordion-body {
+    background-color: #292929;
+    color: #fff;
+}
+.dark-mode .nav-tabs .nav-link {
+    color: #fff;
+}
+.dark-mode .nav-tabs .nav-link.active {
+    background-color: #292929;
+    border-color: #333;
+}
+.dark-mode .tradingview-widget-container {
+    background-color: #1f1f1f;
+    border-color: #333;
+}
+#signalResult {
+    background-color: #e9ecef;
+}
+.dark-mode #signalResult {
+    background-color: #292929;
+}
